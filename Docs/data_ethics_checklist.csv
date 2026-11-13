@@ -1,0 +1,10 @@
+﻿No,Pemeriksaan Etika,Bukti atau Penjelasan,Status
+1,Sumber data berasal dari sumber publik,Data diambil dari OpenStreetMap melalui Overpass API yang dapat diakses secara publik.,Sesuai
+2,Sumber data relevan dengan pariwisata atau budaya,"Data berisi tempat wisata, lokasi bersejarah, tempat ibadah, dan objek budaya di Provinsi Bali.",Sesuai
+3,Lisensi dan atribusi sumber diperhatikan,OpenStreetMap menggunakan lisensi ODbL. Cantumkan atribusi: © OpenStreetMap contributors pada README.,Perlu dipastikan di README
+4,Ketentuan penggunaan API dihormati,Menggunakan Overpass API dan menghindari pengiriman query berulang yang tidak diperlukan.,Sesuai
+5,Pengambilan data tidak membebani server,Kode menggunakan jeda minimal 1 detik sebelum request dan timeout pada request.,Perlu dicek pada notebook
+6,Identitas aplikasi pada User-Agent jelas,User-Agent pada kode mencantumkan identitas mahasiswa INSTIKI. Pastikan alamat email kampus yang sebenarnya sudah menggantikan teks contoh.,Perlu diperiksa
+7,Data pribadi tidak dikumpulkan,"Kolom dataset berisi nama tempat, kategori, alamat, koordinat, OSM ID, dan jenis objek; tidak mengambil nomor telepon, email, atau akun pribadi.",Sesuai berdasarkan kolom dataset
+8,Data mentah disimpan tanpa diubah,Respons asli Overpass disimpan sebagai file JSON di folder data/raw. Pengolahan ke tabel dilakukan terpisah.,Sesuai
+9,Asal-usul data didokumentasikan,File provenance.json disiapkan di folder docs dan README menjelaskan sumber serta metode akuisisi.,Perlu cek kelengkapan isi

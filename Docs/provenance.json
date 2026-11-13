@@ -1,0 +1,13 @@
+{
+    "filename": "openstreetmap_bali_20261113.json",
+    "csv_filename": "openstreetmap_bali_20261113.csv",
+    "file_size_bytes": 975897,
+    "md5_hash": "f524a1d37e900b2fa411a6ab852b933c",
+    "source": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org/",
+    "api_endpoint": "https://overpass-api.de/api/interpreter",
+    "license": "Open Database License (ODbL)",
+    "acquisition_time": "2026-11-13T08:00:52.960201+08:00",
+    "collector_name": "Jack Apolinarisa",
+    "collector_nim": "2501010333"
+}
